@@ -25,11 +25,11 @@ production:
 
 development:
   <<: *defaults
-  monitor: false
+  monitor: true
 
 test:
   <<: *defaults
-  monitor: false
+  monitor: true
 
 staging:
   <<: *defaults
